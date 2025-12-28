@@ -1,55 +1,84 @@
-# 🎨 Excalidraw
+# Excalidraw
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/excalidraw/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/excalidraw)
+🎨 Virtual whiteboard for sketching and diagramming.
 
-> Virtual whiteboard for sketching hand-drawn diagrams
+[![CI](https://github.com/zos-apps/excalidraw/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/excalidraw/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/excalidraw.svg)](https://www.npmjs.com/package/@zos-apps/excalidraw)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/excalidraw)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/excalidraw
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import Excalidraw from '@zos-apps/excalidraw';
-
-function App() {
-  return <Excalidraw />;
-}
-```
+Virtual whiteboard for sketching and diagramming.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
+- Freehand drawing
+- Shapes
+- Text
+- Collaboration
+- Export options
 
-- Context menu actions
-- Menu bar integration
+## Installation
 
-## Category
+### From App Store
+Open the **App Store** in zOS and search for "Excalidraw".
 
-**Creative**
+### Via npm
+```bash
+npm install @zos-apps/excalidraw
+```
 
-## Permissions
+## Usage
 
-- `storage.local`
-- `network`
+- Select tool from toolbar
+- Draw on canvas
+- Export to PNG/SVG
 
-## Links
+## Keyboard Shortcuts
 
-- [Documentation](https://zos-apps.github.io/excalidraw)
-- [GitHub Repository](https://github.com/zos-apps/excalidraw)
-- [Report Issues](https://github.com/zos-apps/excalidraw/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+| Shortcut | Action |
+|----------|--------|
+| `V` | Select |
+| `R` | Rectangle |
+| `D` | Diamond |
+| `E` | Ellipse |
+| `A` | Arrow |
+
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/excalidraw)
+- [API Reference](https://zos-apps.github.io/excalidraw/api)
+- [Changelog](https://github.com/zos-apps/excalidraw/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/excalidraw/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>

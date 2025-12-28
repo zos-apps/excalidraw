@@ -21,7 +21,29 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "Virtual whiteboard for sketching and diagramming.",
+    "help": [
+      "Select tool from toolbar",
+      "Draw on canvas",
+      "Export to PNG/SVG"
+    ],
+    "docs": "https://zos-apps.github.io/excalidraw",
+    "site": "https://github.com/zos-apps/excalidraw",
+    "shortcuts": [
+      "V Select",
+      "R Rectangle",
+      "D Diamond",
+      "E Ellipse",
+      "A Arrow"
+    ],
+    "features": [
+      "Freehand drawing",
+      "Shapes",
+      "Text",
+      "Collaboration",
+      "Export options"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -54,5 +76,13 @@
     "excalidraw",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

@@ -43,7 +43,25 @@
       "Text",
       "Collaboration",
       "Export options"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/excalidraw"
+    },
+    "featured": true,
+    "tags": [
+      "utility",
+      "excalidraw"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/excalidraw/issues",
+    "changelog": "https://github.com/zos-apps/excalidraw/releases"
   },
   "scripts": {
     "build": "tsup",

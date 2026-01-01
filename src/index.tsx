@@ -1,10 +1,10 @@
-import React from 'react';
+
 
 interface ExcalidrawProps {
   onClose: () => void;
 }
 
-const Excalidraw: React.FC<ExcalidrawProps> = ({ onClose }) => {
+const Excalidraw: React.FC<ExcalidrawProps> = ({ onClose: _onClose }) => {
   return (
     <div className="h-full flex flex-col bg-white text-gray-900">
       <iframe
